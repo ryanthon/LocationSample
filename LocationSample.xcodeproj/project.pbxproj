@@ -13,6 +13,8 @@
 		948C0DD31AAA30B000847345 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948C0DD21AAA30B000847345 /* Images.xcassets */; };
 		948C0DD61AAA30B000847345 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948C0DD41AAA30B000847345 /* LaunchScreen.xib */; };
 		948C0DE21AAA30B000847345 /* LocationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C0DE11AAA30B000847345 /* LocationSampleTests.swift */; };
+		948C0DF51AAA5A9800847345 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948C0DF41AAA5A9800847345 /* MapKit.framework */; };
+		948C0DF71AAA5CDC00847345 /* csr.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 948C0DF61AAA5CDC00847345 /* csr.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		948C0DDB1AAA30B000847345 /* LocationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		948C0DE01AAA30B000847345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		948C0DE11AAA30B000847345 /* LocationSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSampleTests.swift; sourceTree = "<group>"; };
+		948C0DF41AAA5A9800847345 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		948C0DF61AAA5CDC00847345 /* csr.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = csr.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948C0DF51AAA5A9800847345 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		948C0DBD1AAA30B000847345 = {
 			isa = PBXGroup;
 			children = (
+				948C0DF41AAA5A9800847345 /* MapKit.framework */,
 				948C0DC81AAA30B000847345 /* LocationSample */,
 				948C0DDE1AAA30B000847345 /* LocationSampleTests */,
 				948C0DC71AAA30B000847345 /* Products */,
@@ -77,6 +83,7 @@
 		948C0DC81AAA30B000847345 /* LocationSample */ = {
 			isa = PBXGroup;
 			children = (
+				948C0DF61AAA5CDC00847345 /* csr.gpx */,
 				948C0DCB1AAA30B000847345 /* AppDelegate.swift */,
 				948C0DCD1AAA30B000847345 /* ViewController.swift */,
 				948C0DCF1AAA30B000847345 /* Main.storyboard */,
@@ -192,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948C0DF71AAA5CDC00847345 /* csr.gpx in Resources */,
 				948C0DD11AAA30B000847345 /* Main.storyboard in Resources */,
 				948C0DD61AAA30B000847345 /* LaunchScreen.xib in Resources */,
 				948C0DD31AAA30B000847345 /* Images.xcassets in Resources */,
@@ -405,6 +413,7 @@
 				948C0DE71AAA30B000847345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		948C0DE81AAA30B000847345 /* Build configuration list for PBXNativeTarget "LocationSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				948C0DEA1AAA30B000847345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
